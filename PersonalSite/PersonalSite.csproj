@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\style.css" />
+    <Content Include="assets\img\2020-10-06-022929975_2.png" />
+    <Content Include="assets\img\JordanHickmanLogo %281%29.png" />
+    <Content Include="assets\img\JordanHickmanLogo.png" />
+    <Content Include="assets\img\JordanLinkedIn.jpg" />
     <Content Include="assets\img\avatar.jpg" />
     <Content Include="assets\img\blog-post-1.jpg" />
     <Content Include="assets\img\blog-post-2.jpg" />

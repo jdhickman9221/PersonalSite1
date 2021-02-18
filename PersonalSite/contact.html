@@ -43,17 +43,17 @@
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="assets/img//logo.png" alt="logo"></a>
+            <a href="index.html"><img src="assets/img/JordanHickmanLogo (1).png" alt="logo"></a>
         </div>
 
-        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+        
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="index.html" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">Resume</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-          <li><a href="#journal" class="smoothScroll">Classmates</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/jordan-hickman-dev/"><i class="ion-social-linkedin"></i></a></li>
+            <li><a href="mailto:jdhickman@outlook.com"><i class="ion-email"></i></a></li>
+            <li><a href="https://twitter.com/jdhickmandev"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/yungblasphemer/"><i class="ion-social-instagram"></i></a></li>
+            <li><a href="https://www.tumblr.com/blog/jdhickmandev"><i class="ion-social-tumblr"></i></a></li>
         </ul>
 
       </div>
@@ -65,123 +65,105 @@
 
     <div class="container">
       <div class="hero-content">
-        <h1>I'm <span class="typed"></span></h1>
-        <p class="typed-items" data-typed-person="Jordan Hickman">a FULL STACK DEVELOPER, MOTIVATED, a MUSICIAN, a KANSAS CITITAN, a TEAM MATE.</p>
+        <h1>CONTACT <span class="typed"></span></h1>
+        <p class="typed-items" data-typed-person="ME.">VIA LINKED IN, VIA EMAIL</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+            <li><a href="index.html" class="smoothScroll">Home</a></li>
+            <li><a href="resume.html" class="smoothScroll">Resume</a></li>
+            <li><a href="portfolio.html" class="smoothScroll">Portfolio</a></li>
+            <li><a href="classmates.html" class="smoothScroll">Classmates</a></li>
+            <li><a href="contact.html" class="smoothScroll">Contact</a></li>
         </ul>
       </div>
     </div>
   </div><!-- End Hero -->
 
   <main id="main">
+      <!-- ======= Contact Section ======= -->
+      <div id="contact" class="paddsection">
+          <div class="container">
+              <div class="contact-block1">
+                  <div class="row">
 
-    <!-- ======= About Section ======= -->
-    <div id="about" class="paddsection">
-      <div class="container">
-        <div class="row justify-content-between">
+                      <div class="col-lg-6">
+                          <div class="contact-contact">
 
-          <div class="col-lg-4 ">
-            <div class="div-img-bg">
-              <div class="about-img">
-                <img src="assets/img/me.jpg" class="img-responsive" alt="me">
+                              <h2 class="mb-30">GET IN TOUCH</h2>
+                              <a href="index.html"><img src="assets/img/JordanHickmanLogo (1).png" alt="logo"></a>
+
+                              <ul class="contact-details">
+                                  <li><a href="https://www.linkedin.com/in/jordan-hickman-dev/"><i class="ion-social-linkedin"></i></a><span> Linked In</span></li>
+                                  <li><a href="mailto:jdhickman@outlook.com"><i class="ion-email"></i></a><span> JDHickman816@outlook.com</span></li>
+                                  <li><a href="https://twitter.com/jdhickmandev"><i class="ion-social-twitter"></i></a><span> Twitter</span></li>
+                              </ul>
+
+                          </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                              <div class="row">
+
+                                  <div class="col-lg-6">
+                                      <div class="form-group contact-block1">
+                                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                          <div class="validate"></div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-6">
+                                      <div class="form-group">
+                                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                          <div class="validate"></div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-12">
+                                      <div class="form-group">
+                                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                          <div class="validate"></div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-12">
+                                      <div class="form-group">
+                                          <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                          <div class="validate"></div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-12 mb-3">
+                                      <div class="loading">Loading</div>
+                                      <div class="error-message"></div>
+                                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                                  </div>
+
+                                  <div class="col-lg-12">
+                                      <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                                  </div>
+
+                              </div>
+                          </form>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
+      </div><!-- End Contact Section -->
 
-          <div class="col-lg-7">
-            <div class="about-descr">
-
-              <p class="p-heading">im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
-              <p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div><!-- End About Section -->
-
-    <!-- ======= Services Section ======= -->
-    <div id="services">
-      <div class="container">
-
-        <div class="services-carousel owl-theme">
-
-          <div class="services-block">
-
-            <i class="ion-ios-browsers-outline"></i>
-            <span>UI/UX DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-lightbulb-outline"></i>
-            <span>BRAND IDENTITY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-social-android-outline"></i>
-            <span>MOBILE APPS</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-camera-outline"></i>
-            <span>PHOTOGRAPHY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div><!-- End Services Section -->
-
-   
+  </main>
   <!-- ======= Footer ======= -->
   <div id="footer" class="text-center">
     <div class="container">
       <div class="socials-media text-center">
 
-        <ul class="list-unstyled">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
-        </ul>
+          <ul class="list-unstyled">
+              <li><a href="index.html" class="smoothScroll">Home</a></li>
+              <li><a href="resume.html" class="smoothScroll">Resume</a></li>
+              <li><a href="portfolio.html" class="smoothScroll">Portfolio</a></li>
+              <li><a href="classmates.html" class="smoothScroll">Classmates</a></li>
+              <li><a href="contact.html" class="smoothScroll">Contact</a></li>
+          </ul>
 
       </div>
 
