@@ -49,7 +49,7 @@ h4 {
 }
 
 a {
-  color: #292929;
+  color: #e3e2df;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -58,10 +58,10 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
-  color: #b8a07e;
-  text-decoration: underline;
-}
+    a:hover, a:focus {
+        color: #ee4c7c;
+        text-decoration: underline;
+    }
 
 nav ul li a {
   padding: 2px 0 0 0;
@@ -80,7 +80,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #292929;
   line-height: 28px;
 }
 
@@ -126,7 +126,7 @@ p {
 
 .form-control {
   background-color: transparent;
-  border: 1px solid #999;
+  border: 1px solid #ee4c7c;
   border-radius: 0;
   color: #999999;
   font-size: 12px;
@@ -175,7 +175,7 @@ p {
 --------------------------------------------------------------*/
 nav {
   position: fixed;
-  background: #fff;
+  background: #e3e2df;
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -255,16 +255,21 @@ nav ul li a {
   text-transform: uppercase;
   color: #fff;
 }
-
-.hero-content p {
-  font-size: 13px;
-  letter-spacing: 3px;
-  margin-top: 0;
-  margin-bottom: 30px;
-  text-transform: capitalize;
-  color: #fff;
-  font-weight: 500;
+h1.im, span.im {
+    color: #ee4c7c;
 }
+    .hero-content p {
+        font-size: 13px;
+        letter-spacing: 3px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+        color: #292929;
+        font-weight: 500;
+    }
+    span.typed{
+        color:#fff
+    }
 
 .hero-content .list-social li {
   float: left;
@@ -341,13 +346,14 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  padding-top: 120px;
+  background: #e3e2df;
+  padding-top: 90px;
+  overflow: hidden;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #ee4c7c;
 }
 
 #about .div-img-bg .about-img img {
@@ -376,9 +382,9 @@ nav ul li a {
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #f7f7f7;
-  position: relative;
-  padding-bottom: 80px;
+    background: #fff;
+    position: relative;
+    padding-bottom: 80px;
 }
 
 .owl-item {
@@ -404,7 +410,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #ee4c7c;
   line-height: 44px;
 }
 
@@ -415,22 +421,23 @@ nav ul li a {
 .services-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
+  color:#999
 }
 
 .services-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px !important;
-  height: 12px !important;
-  border-radius: 50%;
-  border: 0;
-  padding: 0 !important;
-  background-color: #ddd;
-  cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    border: 0;
+    padding: 0 !important;
+    background-color: #999;
+    cursor: pointer;
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #e3afbc;
 }
 
 .owl-nav {
@@ -690,6 +697,10 @@ nav ul li a {
 #contact input, #contact textarea {
   width: 100%;
   margin-bottom: 5px;
+  
+}
+input.btn.btn-defeault.btn-send{
+    background-color:#ee4c7c;
 }
 
 .php-email-form .validate {
@@ -898,9 +909,9 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f7f7;
-  padding-top: 50px;
-  padding-bottom: 50px;
+    background: #e3e2df;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #footer .socials-media {
@@ -930,7 +941,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #ee4c7c;
   transition: all 0.5s ease-in-out 0s;
 }
 

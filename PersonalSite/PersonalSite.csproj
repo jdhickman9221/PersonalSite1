@@ -69,8 +69,15 @@
   <ItemGroup>
     <Content Include="assets\css\style.css" />
     <Content Include="assets\img\2020-10-06-022929975_2.png" />
+    <Content Include="assets\img\android-chrome-192x192.png" />
+    <Content Include="assets\img\favicon-16x16.png" />
+    <Content Include="assets\img\favicon-32x32.png" />
+    <Content Include="assets\img\Jordan Hickman Resume IT-1.png" />
+    <Content Include="assets\img\Jordan Hickman Resume IT-2.png" />
+    <Content Include="assets\img\Jordan Hickman Resume IT-3.png" />
     <Content Include="assets\img\JordanHickmanLogo %281%29.png" />
     <Content Include="assets\img\JordanHickmanLogo.png" />
+    <Content Include="assets\img\JordanHickmanLogo2.png" />
     <Content Include="assets\img\JordanLinkedIn.jpg" />
     <Content Include="assets\img\avatar.jpg" />
     <Content Include="assets\img\blog-post-1.jpg" />
@@ -82,6 +89,7 @@
     <Content Include="assets\img\logo.png" />
     <Content Include="assets\img\me.jpg" />
     <Content Include="assets\img\mirasbek-nurseit-dYp4_IomzdI-unsplash.jpg" />
+    <Content Include="assets\img\mstile-150x150.png" />
     <Content Include="assets\img\portfolio-1.jpg" />
     <Content Include="assets\img\portfolio-2.jpg" />
     <Content Include="assets\img\portfolio-3.jpg" />
@@ -137,6 +145,7 @@
     <Content Include="changelog.txt" />
     <Content Include="forms\contact.php" />
     <Content Include="forms\Readme.txt" />
+    <Content Include="assets\css\resume.css" />
     <Content Include="resume.html" />
     <Content Include="portfolio.html" />
     <Content Include="classmates.html" />
