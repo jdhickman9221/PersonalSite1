@@ -8,6 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+/*#region Jdh*/
+div .credits a, p .credits{
+     font-size: 4px;
+ }
+/*#endregion Jdh*/
+
+
+#endregion
 body {
   background: #ffffff;
   color: #898989;
@@ -225,7 +234,7 @@ nav ul li a {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("/assets/img/mirasbek-nurseit-dYp4_IomzdI-unsplash.jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
 }
@@ -935,6 +944,8 @@ blockquote {
 
 .credits {
   font-size: 13px;
+  float: right;
+  margin-right:0;
 }
 
 /** Width between 1200x to 0
